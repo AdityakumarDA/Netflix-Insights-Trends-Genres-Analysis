@@ -174,7 +174,7 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 ## 🙏 Acknowledgments
 
-- Dataset by [Shivam Bansal on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+- Dataset by [Shivam Bansal on Kaggle]([https://www.kaggle.com/shivamb])
 - Visualization and design by **Aditya Kumar**
 
 ---
