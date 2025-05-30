@@ -54,7 +54,7 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 - **Source**: Netflix Titles Dataset by Shivam Bansal
 - **File**: `netflix_titles.csv`
 - **Records**: 8,800+ titles
-- **Key Fields**: Title, Type, Country, Date Added, Duration, Listed_in (Genre), Director, Cast
+- **Key Fields**: show_id, type, title, director,	cast,	country, date_added, release_year, rating, duration, listed_in,	description
 
 ---
 
