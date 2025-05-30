@@ -33,7 +33,7 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 - Analyze release trends of movies and shows over time
 - Discover top producing countries and genres
-- Breakdown content by type and duration
+- Number of records by content type
 - Distribution of different ratings across all Netflix content
 - Built using Tableau Public with custom visuals
 
