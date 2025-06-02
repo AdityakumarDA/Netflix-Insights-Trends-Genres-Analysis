@@ -13,23 +13,26 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 ## 📚 Table of Contents
 
-- [📌 Project Highlights](#-project-highlights)
-- [🧰 Tools Used](#-tools-used)
-- [📊 Dataset Summary](#-dataset-summary)
-- [📈 Visualizations & Screenshots](#-visualizations--screenshots)
-  - [1. Shows Released Per Year](#1-shows-released-per-year)
-  - [2. Content Type Breakdown](#2-content-type-breakdown)
-  - [3. Country-Wise Content Contribution](#3-country-wise-content-contribution)
-  - [4. Genre Frequency](#4-genre-frequency)
-  - [5. Top Directors](#5-top-directors)
-  - [6. Top Cast Members](#6-top-cast-members)
-  - [7. Duration Breakdown](#7-duration-breakdown)
-- [🧠 Key Insights](#-key-insights)
-- [📂 Files in Repository](#-files-in-repository)
-- [📸 Screenshot Checklist](#-screenshot-checklist-upload-to-screenshots-folder)
-- [🚀 How to Run](#-how-to-run)
-- [🙏 Acknowledgments](#-acknowledgments)
-- [📬 Contact](#-contact)
+- [📌 Project Highlights](#-project-highlights)  
+- [🧰 Tools Used](#-tools-used)  
+- [📊 Dataset Summary](#-dataset-summary)  
+- [📈 Visualizations & Screenshots](#-visualizations--screenshots)  
+  - [1. Shows Released Per Year](#1-shows-released-per-year)  
+  - [2. Country-Wise Content Contribution](#2-country-wise-content-contribution)  
+  - [3. Distribution of Genre](#3-distribution-of-genre)  
+  - [4. Distribution of Different Ratings](#4-distribution-of-different-ratings)  
+  - [5. Distribution of Content Type](#5-distribution-of-content-type)  
+- [📌 Project Overview](#-project-overview)  
+- [📈 Dashboard Components](#-dashboard-components)  
+- [🔁 Features & Interactivity](#-features--interactivity)  
+- [✅ Outcomes](#-outcomes)  
+- [🎛️ Filters and Parameters](#filters-and-parameters)  
+- [🧠 Key Insights](#-key-insights)  
+- [📂 Files in Repository](#-files-in-repository)  
+- [🙏 Acknowledgments](#-acknowledgments)  
+- [📬 Contact](#-contact)  
+
+
 
 ---
 
@@ -67,7 +70,7 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 ## 📈 Visualizations & Screenshots
 
-### 1. 📅 Shows Released Per Year
+### 1. Shows Released Per Year
 - **Chart**: Line Chart  
 - **Formula**:
   ```tableau
@@ -78,7 +81,7 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
     ![Shows_Released_Per_Year](screenshots/Shows_Released_Per_Year.png)
 ---
 
-### 3. 🌍 Country-Wise Content Contribution
+### 2. Country-Wise Content Contribution
 - **Chart**: Bar Chart  
 - **Formula**:
   ```tableau
@@ -90,7 +93,7 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 ---
 
-### 4. 🎭 Distribution of Genre
+### 3. Distribution of Genre
 - **Chart**: Treemaps  
 - **Formula**:
   ```tableau
@@ -102,7 +105,7 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 ---
 
-### 5. 👨‍🎬 Distribution of different Ratings
+### 4. Distribution of different Ratings
 - **Chart**: Pie Chart  
 - **Formula**:
   ```tableau
@@ -114,7 +117,7 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 ---
 
-### 6. 🎭 Distribution of Content Type
+### 5. Distribution of Content Type
 - **Chart**: Horizontal Bar  
 - **Formula**:
   ```tableau
@@ -191,7 +194,7 @@ This project aims to deliver data-driven insights on Netflix content trends usin
 
 ---
 
-## 🎛️ Filters and Parameters
+## Filters and Parameters
 
 - **Screenshot**: 
 
