@@ -90,8 +90,8 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 ---
 
-### 4. 🎭 Genre Frequency
-- **Chart**: Word Cloud or Bar  
+### 4. 🎭 Distribution of Genre
+- **Chart**: Treemaps  
 - **Formula**:
   ```tableau
   SPLIT([Listed_in], ",")
@@ -100,35 +100,23 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 ---
 
-### 5. 👨‍🎬 Top Directors
-- **Chart**: Horizontal Bar  
+### 5. 👨‍🎬 Distribution of different Ratings
+- **Chart**: Pie Chart  
 - **Formula**:
   ```tableau
-  COUNT([Title]) by [Director]
+  COUNT([Title]) by [Ratings]
   ```
 - **Screenshot**: `/screenshots/top_directors.png`
 
 ---
 
-### 6. 🎭 Top Cast Members
+### 6. 🎭 Distribution of Content Type
 - **Chart**: Horizontal Bar  
 - **Formula**:
   ```tableau
-  COUNT([Title]) by [Cast]
+  COUNT([Title]) by [Type]
   ```
 - **Screenshot**: `/screenshots/top_cast.png`
-
----
-
-### 7. ⏱️ Duration Breakdown
-- **Chart**: Histogram or Box Plot  
-- **Formula**:
-  ```tableau
-  IF [Type] = "Movie" THEN INT(LEFT([Duration], FIND([Duration], " ") - 1)) END
-  ```
-- **Screenshot**: `/screenshots/duration_plot.png`
-
----
 
 ## 🧠 Key Insights
 
