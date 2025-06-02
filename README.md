@@ -70,16 +70,6 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 ---
 
-### 2. 🍿 Content Type Breakdown
-- **Chart**: Donut or Bar  
-- **Formula**:
-  ```tableau
-  COUNT([Title]) grouped by [Type]
-  ```
-- **Screenshot**: `/screenshots/type_distribution.png`
-
----
-
 ### 3. 🌍 Country-Wise Content Contribution
 - **Chart**: Bar Chart  
 - **Formula**:
@@ -120,43 +110,21 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 
 ## 🧠 Key Insights
 
-- Netflix scaled rapidly in 2016–2019.
+- Netflix scaled rapidly in 2011–2018.
 - Dramas and International Movies dominate.
 - USA, India, and UK are top contributors.
-- Most movies run under 2 hours.
+- Movies reach the world fast; TV shows build loyal fans over time.
 
 ---
 
 ## 📂 Files in Repository
 
-| File/Folder                     | Description                                |
+| File/Folder                    | Description                                |
 |--------------------------------|--------------------------------------------|
 | `Netflix_Insights.twbx`        | Tableau Packaged Workbook                  |
 | `screenshots/`                 | Contains all chart screenshots             |
-| `NetflixDataset.csv` *(opt)*   | Optional: cleaned Netflix CSV file         |
-| `.gitignore` *(opt)*           | Git ignore rules for Tableau files         |
+| `NetflixDataset.csv`           | Optional: cleaned Netflix CSV file         |
 | `README.md`                    | Project overview and documentation         |
-
----
-
-## 📸 Screenshot Checklist (Upload to `/screenshots/` folder)
-
-- `shows_by_year.png`
-- `type_distribution.png`
-- `top_countries.png`
-- `genre_distribution.png`
-- `top_directors.png`
-- `top_cast.png`
-- `duration_plot.png`
-
----
-
-## 🚀 How to Run
-
-1. Clone this repo  
-2. Open `Netflix_Insights.twbx` in Tableau Public  
-3. Explore visuals, filters, and interactivity  
-4. Upload screenshots in `/screenshots/` for GitHub documentation
 
 ---
 
