@@ -5,6 +5,10 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 🔗 **[Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/aditya.kumar6665/viz/GlobalNetflixInsightsTrendsGenres/Visualizations)**  
 📦 **Dataset**: [Netflix Shows Dataset - Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
+
+![Dashboard](screenshots/Dashboard.png)
+
+
 ---
 
 ## 📚 Table of Contents
@@ -55,6 +59,9 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
 - **File**: `netflix_titles.csv`
 - **Records**: 8,800+ titles
 - **Key Fields**: show_id, type, title, director,	cast,	country, date_added, release_year, rating, duration, listed_in,	description
+- **Screenshot**:
+
+  ![Datasource](screenshots/Datasource.png)
 
 ---
 
@@ -66,8 +73,9 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
   ```tableau
   COUNT([Title]) BY YEAR([Date Added])
   ```
-- **Screenshot**: `/screenshots/shows_by_year.png`
+- **Screenshot**: 
 
+    ![Shows_Released_Per_Year](screenshots/Shows_Released_Per_Year.png)
 ---
 
 ### 3. 🌍 Country-Wise Content Contribution
@@ -76,7 +84,9 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
   ```tableau
   COUNT([Title]) by [Country]
   ```
-- **Screenshot**: `/screenshots/top_countries.png`
+- **Screenshot**: 
+
+    ![Country_Wise_Content_Contribution](screenshots/Country_Wise_Content_Contribution.png)
 
 ---
 
@@ -86,7 +96,9 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
   ```tableau
   SPLIT([Listed_in], ",")
   ```
-- **Screenshot**: `/screenshots/genre_distribution.png`
+- **Screenshot**: 
+
+   ![Distribution_of_Genre](screenshots/Distribution_of_Genre.png)
 
 ---
 
@@ -96,7 +108,9 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
   ```tableau
   COUNT([Title]) by [Ratings]
   ```
-- **Screenshot**: `/screenshots/top_directors.png`
+- **Screenshot**: 
+
+  ![Distribution_of_different_Ratings](screenshots/Distribution_of_different_Ratings.png)
 
 ---
 
@@ -106,7 +120,9 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
   ```tableau
   COUNT([Title]) by [Type]
   ```
-- **Screenshot**: `/screenshots/top_cast.png`
+- **Screenshot**: 
+
+  ![Distribution_of_Content_Type](screenshots/Distribution_of_Content_Type.png)
 
 ---
 
@@ -127,7 +143,9 @@ This project aims to deliver data-driven insights on Netflix content trends usin
 - **Interactivity**: Parameter-driven “Top N” filter.
 - **Purpose**: To reveal the most popular genres with a compact visual that shows proportion by count.
 - **Highlight**: Users can adjust the parameter to see top 5, 10, 15 genres, etc.
-- **Screenshot**: `/screenshots/Top N genres (parameter).png`
+- **Screenshot**:
+
+     ![Top_N_genres_(parameter)](screenshots/Top_N_genres_(parameter).png)
 
 ---
 
@@ -136,15 +154,19 @@ This project aims to deliver data-driven insights on Netflix content trends usin
 - **Interactivity**: Parameter-driven filtering of top countries.
 - **Purpose**: To highlight Netflix’s global content production by geography.
 - **Highlight**: Color intensity indicates the volume of content from each country.
-- **Screenshot**: `/screenshots/Top N countries (parameter).png`
+- **Screenshot**: 
 
+    ![Top_N_countries_(parameter)](screenshots/Top_N_countries_(parameter).png)
+  
 ---
 
 ### 3. 🗂️ Interactive Netflix Titles Table
 - **Visualization**: Table/List view
 - **Interactivity**: Filtered using **Dashboard Actions** from Genre and Country visuals.
 - **Purpose**: To allow detailed exploration of Netflix shows based on selected genre or country.
-- **Screenshot**: `/screenshots/Dashboard Actions.png`
+- **Screenshot**:
+
+    ![Dashboard_Actions](screenshots/Dashboard_Actions.png)
 
 ---
 
@@ -155,7 +177,10 @@ This project aims to deliver data-driven insights on Netflix content trends usin
 - **Dashboard Actions**:
   - Clicking a country or genre filters the table to show relevant titles.
   - Users can interactively explore content based on region or theme.
-- **Screenshot**: `/screenshots/Dashboard.png`
+- **Screenshot**: 
+
+    ![Dashboard](screenshots/Dashboard.png)
+
 ---
 
 ## ✅ Outcomes
@@ -168,7 +193,9 @@ This project aims to deliver data-driven insights on Netflix content trends usin
 
 ## 🎛️ Filters and Parameters
 
-- **Screenshot**: `/screenshots/filters.png`
+- **Screenshot**: 
+
+ ![Filters](screenshots/Filters.png)
 
 ### 🔹 What Was Implemented:
 A vertical **Filter Panel** was added to the left side of the dashboard, allowing users to control the view based on specific dimensions and parameters:
@@ -206,7 +233,7 @@ These filters make the dashboard **highly dynamic**, letting users tailor their 
 | File/Folder                    | Description                                |
 |--------------------------------|--------------------------------------------|
 | `Netflix_Insights.twbx`        | Tableau Packaged Workbook                  |
-| `screenshots/`                 | Contains all chart screenshots             |
+| `screenshots/`                 | Contains all chart screenshots and Other   |
 | `NetflixDataset.csv`           | Optional: cleaned Netflix CSV file         |
 | `README.md`                    | Project overview and documentation         |
 
