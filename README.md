@@ -108,6 +108,90 @@ This project presents an interactive Tableau dashboard that offers a deep-dive a
   ```
 - **Screenshot**: `/screenshots/top_cast.png`
 
+---
+
+## 📌 Project Overview
+
+This project aims to deliver data-driven insights on Netflix content trends using interactive Tableau visualizations. It allows users to explore:
+
+- Top N genres on Netflix.
+- Countries producing the most Netflix content.
+- Show-level exploration based on user interactions.
+
+---
+
+## 📈 Dashboard Components
+
+### 1. 🎭 Top N Genres (Treemap)
+- **Visualization**: Treemap
+- **Interactivity**: Parameter-driven “Top N” filter.
+- **Purpose**: To reveal the most popular genres with a compact visual that shows proportion by count.
+- **Highlight**: Users can adjust the parameter to see top 5, 10, 15 genres, etc.
+- **Screenshot**: `/screenshots/Top N genres (parameter).png`
+
+---
+
+### 2. 🌍 Top N Countries (Filled Map)
+- **Visualization**: Map (Choropleth)
+- **Interactivity**: Parameter-driven filtering of top countries.
+- **Purpose**: To highlight Netflix’s global content production by geography.
+- **Highlight**: Color intensity indicates the volume of content from each country.
+- **Screenshot**: `/screenshots/Top N countries (parameter).png`
+
+---
+
+### 3. 🗂️ Interactive Netflix Titles Table
+- **Visualization**: Table/List view
+- **Interactivity**: Filtered using **Dashboard Actions** from Genre and Country visuals.
+- **Purpose**: To allow detailed exploration of Netflix shows based on selected genre or country.
+- **Screenshot**: `/screenshots/Dashboard Actions.png`
+
+---
+
+## 🔁 Features & Interactivity
+
+- **Parameter Controls**:
+  - “Top N Genres” and “Top N Countries” dropdowns allow users to dynamically control how many values are shown.
+- **Dashboard Actions**:
+  - Clicking a country or genre filters the table to show relevant titles.
+  - Users can interactively explore content based on region or theme.
+- **Screenshot**: `/screenshots/Dashboard.png`
+---
+
+## ✅ Outcomes
+
+- Gained hands-on experience with dynamic filtering and dashboard design in Tableau.
+- Built a user-driven dashboard that supports storytelling through data visuals.
+- Developed an understanding of global media trends using Netflix as a case study.
+
+---
+
+## 🎛️ Filters and Parameters
+
+- **Screenshot**: `/screenshots/filters.png`
+
+### 🔹 What Was Implemented:
+A vertical **Filter Panel** was added to the left side of the dashboard, allowing users to control the view based on specific dimensions and parameters:
+
+- **Type Selector**: Filter by content type – `Movie`, `TV Show`, or view `All`.
+- **Top N Genres**: A numeric input parameter that dynamically controls the number of genres shown in the Treemap.
+- **Top N Countries**: A numeric input parameter that adjusts how many countries are visualized in the Map chart.
+- **Rating Filter**: Multi-select option to view titles based on their rating (e.g., PG, R, TV-MA, etc.).
+
+### 🔹 Purpose:
+- To **customize the dashboard view** based on the user's interests.
+- To **improve user control** over the amount and type of data displayed.
+- Makes exploration **more flexible and focused**, especially useful for large datasets like Netflix titles.
+
+### 🔹 Summary Feedback:
+- ✅ **Interactive and user-friendly** layout.
+- ✅ Enhances **dashboard usability** without overwhelming the user.
+- 💡 Consider labeling the numeric inputs (e.g., “Enter number from 1–20”) to guide users on valid input ranges.
+
+These filters make the dashboard **highly dynamic**, letting users tailor their data journey effectively.
+
+---
+
 ## 🧠 Key Insights
 
 - Netflix scaled rapidly in 2011–2018.
